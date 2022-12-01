@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: black;
+}
+
+.nav-top {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(72, 72, 72, 0.37);
+    padding-bottom: 3rem;
+    animation-name: debut;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+.nav-top img {
+    width: 4%;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.nav2 {
+    margin-top: 4.5rem;
+    margin-left: 20rem;
+    color: white;
+    animation-name: debut;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes debut {
+    from {
+        font-size: 0rem;
+    }
+    to {
+        font-size: 1rem;
+    }
+}
+
+.nav2:hover {
+    cursor: pointer;
+}
+
+.nav3 {
+    margin-top: 4.5rem;
+    margin-left: 10rem;
+    color: white;
+}
+
+.nav3:hover {
+    cursor: pointer;
+}
+
+.nav4 {
+    margin-top: 4.5rem;
+    margin-left: 10rem;
+    color: white;
+}
+
+.nav4:hover {
+    cursor: pointer;
+}
+
+.nav5 {
+    margin-top: 4.5rem;
+    margin-left: 10rem;
+    color: white;
+}
+
+.nav5:hover {
+    cursor: pointer;
+}
+
+.nav6 {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #00d2c9;
+}
+
+.nav6:hover {
+    box-shadow: #b6b6b6 -1px 1px 5px 1px;
+}
+
+.nav-top a button {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-top: 1.3rem;
+    border: none;
+    background-color: #00d2c9;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-top: 5rem;
+}
+
+.img-presentation {
+    position: absolute;
+    border: white 1px solid;
+    padding-right: 15%;
+    padding-bottom: 30%;
+    margin-left: 6rem;
+}
+
+.name {
+    margin-left: 25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+}
+
+.title {
+    margin-top: 6rem;
+    font-size: 1.8rem;
+    margin-left: 8rem;
+    color: white;
+    font-weight: normal;
+    font-family: "Calibri Light", sans-serif;
+}
+
+#title {
+    text-transform: uppercase;
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    25% {
+        color: #8e44ad;
+        text-transform: uppercase;
+    }
+    50% {
+        text-transform: uppercase;
+        color: #c0392b;
+    }
+    75% {
+        text-transform: uppercase;
+        color: #16a085;
+    }
+    100% {
+        text-transform: uppercase;
+        color: #2c3e50;
+    }
+}
+
+.paragraphe {
+    font-family: "Amiri Quran", sans-serif;
+    margin-top: 7rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.paragraphe span {
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+}
+
+.footer span {
+    margin-top: 7rem;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50%;
+    font-weight: bold;
+}
+
+.img-footer {
+    display: flex;
+    margin-left: 46%;
+    margin-top: 1rem;
+}
+
+.linkedin {
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.github {
+    width: 30%;
+}
+
